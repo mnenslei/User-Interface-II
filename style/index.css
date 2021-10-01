@@ -22,7 +22,7 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
     padding:0;
     margin:0;
     max-width:100%;
-    border:1px solid grey;
+    /*border:1px solid grey;*/
 }
 /* general styles */
 html{
@@ -73,6 +73,7 @@ section{
 /* header section style */
 header{
     background-color: peachpuff;
+    padding: 2%;
 }
 h1{
     padding: 1%;
@@ -93,11 +94,11 @@ nav{
 
 /* home section styles */
 #home{
-    height: 75vh;
+    height: 70vh;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    margin-top: 2;
+    margin-top: 2%;
     margin-left: 5%;
     margin-right: 5%;
     padding: .5%;
@@ -134,7 +135,10 @@ nav{
     margin-left: 5%;
     margin-right: 5%;
 }
-.img, .text{
+.images p{
+    text-align: center;
+}
+.img{
     width:25%;
 }
 .text{
@@ -158,6 +162,14 @@ footer{
 footer h2{
     width: 100%;
 }
-.contact-info, .socials{
+.contact-info{
     width:100%;
+    padding: 1%;
+}
+.contact-info button{
+    padding: 2%;
+}
+.socials {
+    width: 100%;
+    padding: 1%;
 }
