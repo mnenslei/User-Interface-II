@@ -71,6 +71,9 @@ section{
 }
 
 /* header section style */
+header{
+    background-color: peachpuff;
+}
 h1{
     padding: 1%;
     margin-left: 3.5%;
@@ -143,4 +146,18 @@ nav{
 }
 .img {
    padding: 2%;
+}
+
+footer{
+    display: flex;
+    flex-wrap:wrap;
+    background-color: peachpuff;
+    text-align: center;
+    padding:2%;
+}
+footer h2{
+    width: 100%;
+}
+.contact-info, .socials{
+    width:100%;
 }
